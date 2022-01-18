@@ -23,6 +23,17 @@ pub fn run() {
    println!("Max i32: {}", std::i32::MAX);
    println!("Max i64: {}", std::i64::MAX);
 
+   // Boolean
    let is_active: bool = true;
-   println!("{:?}", (_x, _y, _z, is_active));
+
+   // Get boolean from expression
+   let is_greater = 7 > 9;
+
+   // Char ** needs to be a single quotes **
+   let a1 = 'a';
+
+   // Specify the unicode
+   let emoji_face = '\u{1F600}';
+
+   println!("{:?}", (_x, _y, _z, is_active, is_greater, a1, emoji_face));
 }
