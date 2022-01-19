@@ -33,7 +33,7 @@ pub fn run() {
    let a1 = 'a';
 
    // Specify the unicode
-   let emoji_face = '\u{1F600}';
+   let emoji_face = '\u{1F606}';
 
    println!("{:?}", (_x, _y, _z, is_active, is_greater, a1, emoji_face));
 }
