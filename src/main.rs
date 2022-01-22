@@ -9,8 +9,5 @@
 mod loops;
 
 fn main() {
-    // print::run();
-    // variable::run();
-    // types::run();
     loops::run();
 }
