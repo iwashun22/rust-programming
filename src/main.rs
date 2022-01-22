@@ -5,11 +5,12 @@
 // mod tuples;
 // mod arrays;
 // mod vectors;
-mod conditionals;
+// mod conditionals;
+mod loops;
 
 fn main() {
     // print::run();
     // variable::run();
     // types::run();
-    conditionals::run();
+    loops::run();
 }

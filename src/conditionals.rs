@@ -9,4 +9,8 @@ pub fn run() {
    } else {
       println!("EMPLOYER: Sorry, you need to get the license.");
    }
+
+   // Shorthand if
+   let is_of_age = if age >= 18 { true } else { false };
+   println!("Is of age: {}", is_of_age);
 }
