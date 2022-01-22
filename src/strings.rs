@@ -41,5 +41,5 @@ pub fn run() {
    
    // Assertion testing
    assert_eq!(2, s.len());
-   assert_eq!(10, hello.len());
+   // assert_eq!(10, hello.len());
 }
