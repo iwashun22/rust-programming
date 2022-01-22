@@ -35,5 +35,5 @@ pub fn run() {
    // Specify the unicode
    let emoji_face = '\u{1F606}';
 
-   println!("{:?}", (_x, _y, _だいだいz, is_active, is_greater, a1, emoji_face));
+   println!("{:?}", (_x, _y, is_active, is_greater, a1, emoji_face));
 }
