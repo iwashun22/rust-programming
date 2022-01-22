@@ -4,11 +4,12 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod vectors;
+// mod vectors;
+mod conditionals;
 
 fn main() {
     // print::run();
     // variable::run();
     // types::run();
-    vectors::run();
+    conditionals::run();
 }

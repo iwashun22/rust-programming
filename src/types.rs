@@ -9,6 +9,12 @@
    CHARACTERS (char) char is not a string!
 */
 
+/*
+   Difference between i(int) and u(unsigned)
+      i - can be any integer number include negative value.
+      u - can not be negative value
+*/
+
 pub fn run() {
    // Default is "i32"
    let _x = 1; 
