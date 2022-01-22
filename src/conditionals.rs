@@ -1,6 +1,6 @@
 pub fn run() {
-   let age: u8 = 18;
-   let have_license: bool = true;
+   let age: u8 = 21;
+   let have_license: bool = false;
 
    if age >= 18 && have_license {
       println!("EMPLOYER: What role you looking for?");
