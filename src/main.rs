@@ -6,8 +6,10 @@
 // mod arrays;
 // mod vectors;
 // mod conditionals;
-mod loops;
+// mod loops;
+// mod functions;
+mod pointer_ref;
 
 fn main() {
-    loops::run();
+    pointer_ref::run();
 }
